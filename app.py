@@ -122,10 +122,9 @@ def main():
         st.subheader("Rapport d'analyse des données")
         st.write("""
             ## Résumé de l'analyse des données.
-            Ce rapport présente un aperçu des informations disponibles sur les ventes et les canaux de distribution.
-            Les visualisations ont montré la répartition des ventes entre les canaux de vente en ligne et en magasin.
-            Les autres sections fournissent des informations statistiques et des graphiques pertinents pour analyser les ventes.
+            
         """)
+
 
 if __name__ == "__main__":
     main()
