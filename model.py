@@ -2,7 +2,9 @@ import streamlit as st
 import numpy as np
 import pickle
 
-
+# Chargement du modèle
+model_name='./BeansArbre.pkl'
+model_loaded=pickle.load(open(model_name,'rb'))
 
 # Fonction de prédiction
 def pred_proba(data):
